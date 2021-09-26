@@ -34,7 +34,7 @@ function setup() {
   player = Bodies.rectangle(230, playerBase.position.y - 160, 50, 180, player_options);
   World.add(world, player);
 
-  playerArcher = new PlayerArcher(300, 275, 50, 25);
+  playerArcher = new PlayerArcher(300, 275, 100, 75);
 }
 
 function draw() {
@@ -58,8 +58,8 @@ function draw() {
   text("EPIC ARCHERY", width / 2, 100);
   pop();
 
-  push();
-  fill(0);
-  rect(270, 273, 25, 5);
-  pop();
+  //push();
+  //fill(0);
+  //rect(270, 273, 25, 5);
+  //pop();
 }
